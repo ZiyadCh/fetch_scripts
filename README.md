@@ -10,7 +10,7 @@ cd fetch_script
 ```
 chmod +x get_fetch.sh post_fetch.sh
 ```
-## Make usable anywhere
+## Make the commands usable from any directory
 ```
 sudo mv get_fetch.sh /usr/local/bin/get_fetch
 sudo mv post_fetch.sh /usr/local/bin/post_fetch
