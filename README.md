@@ -6,7 +6,7 @@
 git clone https://github.com/ZiyadCh/fetch_scripts.git
 cd fetch_script
 ```
-## Give permission:
+## Give executable permission:
 ```
 chmod +x get_fetch.sh post_fetch.sh
 ```
