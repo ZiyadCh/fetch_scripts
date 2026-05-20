@@ -32,7 +32,7 @@ example:
 ```
 example:
 ```
-post_fetch localhost:8000/api/students '{                                   ─╯
+post_fetch localhost:8000/api/students '{                                   
   "nom": "Martin",
   "prenom": "Sophie",
   "photo": "profiles/sophie_martin.jpg",
