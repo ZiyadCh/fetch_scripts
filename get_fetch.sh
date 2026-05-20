@@ -26,9 +26,9 @@ printf "${GREEN}└────────────────────�
 if [[ -z $lines ]]; then
   curl -s \
     -H "Accept: application/json" \
-    "$endpoint" | jq -C
+    "$endpoint" | jq -C | less -R
 else
   curl -s \
     -H "Accept: application/json" \
-    "$endpoint" | jq -C | head -"$lines"
+    "$endpoint" | jq -C | head -"$lines" | less -R
 fi

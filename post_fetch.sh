@@ -35,4 +35,4 @@ curl -s -X POST \
   -H "Content-Type: application/json" \
   -H "Accept: application/json" \
   -d "$data" \
-  "$endpoint" | jq -C
+  "$endpoint" | jq -C | less -R
